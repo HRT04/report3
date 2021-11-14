@@ -14,33 +14,66 @@ public class Hero {
     private int attack;
     private boolean dead;
 
+    /**
+     * void setName; //nameを設定する
+     * @param _name 敵の名前
+     */
     public void setName(String _name){
         this.name = _name;
     }
+
+    /**
+     * String getName(); //nameを取得する
+     * @return name
+     */
     public String getName(){
         return name;
     }
 
-
+    /**
+     * void setHitPoint; //hitPointを設定する
+     * @param _hitPoint 敵のHP
+     */
     public void setHitPoint(int _hitPoint){
         this.hitPoint = _hitPoint;
     }
+
+    /**
+     * int getHitPoint(); //hitPointを取得する
+     * @return hitPoint
+     */
     public int getHitPoint(){
         return hitPoint;
     }
 
-
+    /**
+     * void setAttack; //attackを設定する
+     * @param _attack 敵の攻撃力
+     */
     public void setAttack(int _attack){
         this.attack = _attack;
     }
+
+    /**
+     * int getAttack(); //attackを取得する
+     * @return attack
+     */
     public int getAttack(){
         return attack;
     }
 
-
+    /**
+     * void setDead; //deadを設定する
+     * @param _dead 敵の生死状態。true = 死亡
+     */
     public void setDead(boolean _dead){
         this.dead = _dead;
     }
+
+    /**
+     * boolean getDead(); //deadを取得する
+     * @return dead
+     */
     public boolean getDead(){
         return dead;
     }
